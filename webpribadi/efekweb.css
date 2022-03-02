@@ -1,0 +1,78 @@
+* {
+	padding: 0px;
+	margin: 0;
+	font-family: sans-serif;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.medsos {
+	padding: 5px 0;
+	background-color: #ccabd8;
+}
+.medsos ul li {
+	display: inline-block;
+	margin: 10px;
+	color: #d8313a;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.container after {
+	content: '';
+	display: block;
+	clear: both;
+}
+header h1 {
+	
+	padding: 15px 0;
+	color: #d8313a;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	display: inline-block;
+	padding: 25px 20px;
+}
+header ul li a:hover {
+	background-color: #ccabd8;
+	color: white;
+}
+.active {
+	background-color: #ccabd8;
+	color: white;
+}
+.bgtengah {
+	height: 60vh;
+	background-color: rgba(250, 137, 123, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #ccabd8;
+}
+.bgtengah p {
+	color: #9a392a ;
+	padding: 25px 25px;
+	border: 3px solid white;
+	text-align: center;
+}
+.tabeltengah {
+	height: 60vh;
+	background-color: rgba(250, 137, 123, 0.5);
+	color: #9a392a ;
+	border: 2px solid #ccabd8;
+}
+section p {
+	padding: 50px 0;
+}
+section h3 {
+	text-align: center;
+	padding: 25px 5px;
+}
+.pendidikan ul li {
+	word-spacing: 2px;
+	line-height: 25px;
+}
